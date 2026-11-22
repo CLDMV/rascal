@@ -742,7 +742,7 @@ The following cross-cutting areas also need initial design decisions.
 | BitTorrent implementation library | Not established | Open |
 | Processing worker architecture | Not established | Open |
 | Playback architecture | Not established | Open |
-| Technology stack | Not established | Open |
+| Technology stack | Built on @cldmv/rummage | Confirmed |
 | UI architecture | Not established | Open |
 | Mascot and visual identity | Not established | Open |
 
@@ -755,7 +755,7 @@ Before implementation, create detailed design specifications for the following w
 Define:
 
 1. Supported deployment environments
-2. Technology stack
+2. How Rascal uses rummage (the technology base is @cldmv/rummage)
 3. Core services and boundaries
 4. Database architecture
 5. Media data model
@@ -853,7 +853,7 @@ The following principles should guide future architectural decisions.
 
 The project remains in the initial design stage.
 
-No definitive technology stack, extension API, data model, storage layout, playback architecture, or file lifecycle implementation has been selected.
+Rascal is built on @cldmv/rummage, which provides the app shell, the extension host and the storage layer. No definitive extension API, data model, storage layout, playback architecture, or file lifecycle implementation has been selected.
 
 **Next milestone:** Produce a technical architecture and design-decision document that resolves the foundational questions before implementation begins.
 
