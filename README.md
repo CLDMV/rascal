@@ -2,7 +2,7 @@
 
 Rascal is a self-hosted media platform built on [`@cldmv/rummage`](https://github.com/CLDMV/rummage#readme).
 
-The project is in active pre-release development on the [`dev`](https://github.com/CLDMV/rascal/tree/dev) branch. `master` carries only the v4 CI wiring until the first release.
+The project is in design and no code has been written yet. The initial product and architecture design brief is in [docs/BRIEF.md](./docs/BRIEF.md).
 
 ## License
 
